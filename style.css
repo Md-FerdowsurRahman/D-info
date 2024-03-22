@@ -26,6 +26,7 @@
    transition: all 0.5s;
    z-index: 997;
    padding: 15px 0;
+   background: #37517e;
    
  }
  
@@ -174,6 +175,7 @@
    /* height: 80vh; */
    min-height: 100vh;
    background: #37517e;
+   
  }
  
  #hero .container {
@@ -278,9 +280,13 @@
   /*--------------------------------------------------------------
 # Hero Section end here
 --------------------------------------------------------------*/
+ .hr{
+   border: 10px dotted white;
+   border-bottom:none ;
+   width: 50px;
+  
+ }
 
-
- 
  
 
  
