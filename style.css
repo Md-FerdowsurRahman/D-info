@@ -1,317 +1,195 @@
- /* Default css */
- html{
-    scroll-behavior: smooth;
- }
+/* Default css */
+html {
+  scroll-behavior: smooth;
+}
 
- body{
-    font-family: "Open Sans", sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
+}
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jost", sans-serif;
+}
 
- }
-
- h1,h2,h3,h4,h5,h6{
-    font-family: "Jost", sans-serif;
- }
-
- 
-  #header .logo img {
+#header .logo img {
   max-height: 40px;
 }
 
- 
- /*--------------------------------------------------------------
+/*--------------------------------------------------------------
  # Header
  --------------------------------------------------------------*/
- #header {
-   transition: all 0.5s;
-   z-index: 997;
-   padding: 15px 0;
-   background: #37517e;
-   
- }
- 
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  background: #37517e;
+}
 
- /*--------------------------------------------------------------
+/*--------------------------------------------------------------
  # Navigation Menu
  --------------------------------------------------------------*/
- /**
+/**
  * Desktop Navigation 
  */
- /* .navbar {
+/* .navbar {
    padding: 0;
  } */
- 
- .navbar ul {
-   margin: 0;
-   padding: 0;
-   display: flex;
-   list-style: none;
-   align-items: center;
- }
- 
- /* .navbar li {
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+/* .navbar li {
    position: relative;
  } */
- 
- .navbar a,
- .navbar a:focus {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   padding: 10px 0 10px 30px;
-   font-size: 15px;
-   font-weight: 500;
-   color: #fff;
-   white-space: nowrap;
-   transition: 0.3s;
- }
 
- 
+.navbar a,
+.navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
 
- .navbar .getstarted,
- .navbar .getstarted:focus {
-   padding: 8px 20px;
-   margin-left: 30px;
-   border-radius: 50px;
-   color: #fff;
-   font-size: 14px;
-   border: 2px solid #47b2e4;
-   font-weight: 600;
- }
- 
- .navbar .getstarted:hover,
- .navbar .getstarted:focus:hover {
-   color: #fff;
-   background: #31a9e1;
- }
- 
- 
- 
- /**
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  padding: 8px 20px;
+  margin-left: 30px;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: #31a9e1;
+}
+
+/**
  * Mobile Navigation 
  */
- .mobile-nav-toggle {
-   color: #fff;
-   font-size: 28px;
-   cursor: pointer;
-   display: none;
-   line-height: 0;
-   transition: 0.5s;
- }
- 
- .mobile-nav-toggle.bi-x {
-   color: #fff;
- }
- 
- @media (max-width: 991px) {
-   .mobile-nav-toggle {
-     display: block;
-   }
- 
-   .navbar ul {
-     display: none;
-   }
- }
- 
- .navbar-mobile {
-   position: fixed;
-   overflow: hidden;
-   top: 0;
-   right: 0;
-   left: 0;
-   bottom: 0;
-   background: rgba(40, 58, 90, 0.9);
-   transition: 0.3s;
-   z-index: 999;
- }
- 
- .navbar-mobile .mobile-nav-toggle {
-   position: absolute;
-   top: 15px;
-   right: 15px;
- }
- 
- .navbar-mobile ul {
-   display: block;
-   position: absolute;
-   top: 55px;
-   right: 15px;
-   bottom: 15px;
-   left: 15px;
-   padding: 10px 0;
-   border-radius: 10px;
-   background-color: #fff;
-   overflow-y: auto;
-   transition: 0.3s;
- }
- 
- .navbar-mobile a,
- .navbar-mobile a:focus {
-   padding: 10px 20px;
-   font-size: 15px;
-   color: #37517e;
- }
- 
- .navbar-mobile a:hover,
- .navbar-mobile .active,
- .navbar-mobile li:hover>a {
-   color: #47b2e4;
- }
- 
- .navbar-mobile .getstarted,
- .navbar-mobile .getstarted:focus {
-   margin: 15px;
-   color: #37517e;
- }
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
 
- /* navbar end here */
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
 
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
 
- /*--------------------------------------------------------------
+  .navbar ul {
+    display: none;
+  }
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(40, 58, 90, 0.9);
+  transition: 0.3s;
+  z-index: 999;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #37517e;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+  color: #47b2e4;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+  color: #37517e;
+}
+
+/* navbar end here */
+
+/*--------------------------------------------------------------
 # Hero Section start here
 --------------------------------------------------------------*/
 #hero {
-   width: 100%;
-   /* height: 80vh; */
-   min-height: 100vh;
-   background: #37517e;
-   
- }
- 
- #hero .container {
-   padding-top: 72px;
- }
- 
- #hero h1 {
-   margin: 0 0 10px 0;
-   font-size: 48px;
-   font-weight: 700;
-   line-height: 56px;
-   color: #fff;
- }
- 
- #hero h2 {
-   color: rgba(255, 255, 255, 0.6);
-   margin-bottom: 50px;
-   font-size: 24px;
- }
- 
- #hero .btn-get-started {
-   font-family: "Jost", sans-serif;
-   font-weight: 500;
-   font-size: 16px;
-   letter-spacing: 1px;
-   display: inline-block;
-   padding: 10px 28px 11px 28px;
-   border-radius: 50px;
-   transition: 0.5s;
-   margin: 10px 0 0 0;
-   color: #fff;
-   background: #47b2e4;
- }
- 
- #hero .btn-get-started:hover {
-   background: #209dd8;
- }
- 
- 
- 
- #hero .animated {
-   animation: up-down 2s ease-in-out infinite alternate-reverse both;
- }
- 
- @media (max-width: 991px) {
-   #hero {
-     height: 100vh;
-     text-align: center;
-   }
- 
-   #hero .animated {
-     animation: none;
-   }
- 
-   #hero .hero-img {
-     text-align: center;
-   }
- 
-   #hero .hero-img img {
-     width: 50%;
-   }
- }
- 
- @media (max-width: 768px) {
-   #hero h1 {
-     font-size: 28px;
-     line-height: 36px;
-   }
- 
-   #hero h2 {
-     font-size: 18px;
-     line-height: 24px;
-     margin-bottom: 30px;
-   }
- 
-   #hero .hero-img img {
-     width: 70%;
-   }
- }
- 
- @media (max-width: 575px) {
-   #hero .hero-img img {
-     width: 80%;
-   }
- 
-   #hero .btn-get-started {
-     font-size: 16px;
-     padding: 10px 24px 11px 24px;
-   }
- }
- 
- @keyframes up-down {
-   0% {
-     transform: translateY(10px);
-   }
- 
-   100% {
-     transform: translateY(-10px);
-   }
- }
-
-  /*--------------------------------------------------------------
-# Hero Section end here
---------------------------------------------------------------*/
- .hr{
-   border: 10px dotted white;
-   border-bottom:none ;
-   width: 50px;
-  
- }
-
-/* How it is work css start */
- #features{
-   padding: 5% 10%;
-   /* background: #e8ded2; */
-   background: #F3F5FA;
+  width: 100%;
+  /* height: 80vh; */
+  min-height: 100vh;
+  background: #37517e;
 }
 
-.features-col{
-   /* border: 1px solid #ff02c0; */
-   border: 1px solid #bae6fd ;
-   border-radius: 5px;
-   padding: 15px;
-   margin: 20px 0;
-   transition: .4s;
-   box-shadow: 2px 6px 5px #bae6fd;
-}
-.features-col:hover{
-   transform: scale(1.1);
-   box-shadow: 2px 6px 5px black;
+#hero .container {
+  padding-top: 72px;
 }
 
-/* How it is work css end */
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
 
-.order-now{
+#hero h2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 50px;
+  font-size: 24px;
+}
 
+#hero .btn-get-started {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -325,53 +203,165 @@
   background: #47b2e4;
 }
 
- .order-now:hover {
+#hero .btn-get-started:hover {
   background: #209dd8;
-  color: #fff;
-
 }
- 
- /* clints and partner css start here */
-.clients{
-  width: 100%;
 
+#hero .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-.hr-style{
-  width: 400px;
-  margin: 0 auto;
-  
-}
- /* clints and partner css end here */
 
- /* Corporate Business Card start here */
-  .business{
-    background-color: #37517e;
+@media (max-width: 991px) {
+  #hero {
+    height: 100vh;
+    text-align: center;
   }
-  /* Corporate Business Card end here */
 
+  #hero .animated {
+    animation: none;
+  }
 
-  /* Faq css start here */
-.hr-styles{
-  width: 680px;
-  margin: 0 auto;
-  
+  #hero .hero-img {
+    text-align: center;
+  }
+
+  #hero .hero-img img {
+    width: 50%;
+  }
 }
-.faq{
-  margin: 0 auto;
-  /* border: 1px solid gray; */
-  border: 1px solid #bae6fd ;
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  #hero .hero-img img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575px) {
+  #hero .hero-img img {
+    width: 80%;
+  }
+
+  #hero .btn-get-started {
+    font-size: 16px;
+    padding: 10px 24px 11px 24px;
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero Section end here
+--------------------------------------------------------------*/
+.hr {
+  border: 10px dotted white;
+  border-bottom: none;
+  width: 50px;
+}
+
+/* How it is work css start */
+#features {
+  padding: 5% 10%;
+  /* background: #e8ded2; */
+  background: #f3f5fa;
+}
+
+.features-col {
+  /* border: 1px solid #ff02c0; */
+  border: 1px solid #bae6fd;
   border-radius: 5px;
-  transition: .4s;
+  padding: 15px;
+  margin: 20px 0;
+  transition: 0.4s;
   box-shadow: 2px 6px 5px #bae6fd;
-  
 }
-
-.faq:hover{
+.features-col:hover {
   transform: scale(1.1);
   box-shadow: 2px 6px 5px black;
 }
 
-  /* Faq css end here */
- 
+/* How it is work css end */
 
- 
+.order-now {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+
+.order-now:hover {
+  background: #209dd8;
+  color: #fff;
+}
+
+/* clints and partner css start here */
+.clients {
+  width: 100%;
+}
+.hr-style {
+  width: 400px;
+  margin: 0 auto;
+}
+/* clints and partner css end here */
+
+/* Corporate Business Card start here */
+.business {
+  background-color: #37517e;
+}
+/* Corporate Business Card end here */
+
+/* Faq css start here */
+.hr-styles {
+  width: 680px;
+  margin: 0 auto;
+}
+.faq {
+  margin: 0 auto;
+  /* border: 1px solid gray; */
+  border: 1px solid #bae6fd;
+  border-radius: 5px;
+  transition: 0.4s;
+  box-shadow: 2px 6px 5px #bae6fd;
+}
+
+.faq:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 6px 5px black;
+}
+
+/* Faq css end here */
+
+
+/* review section css start here */
+.hr-styless {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+/* review section css end here */
