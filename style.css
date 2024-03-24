@@ -16,6 +16,7 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+
 #header .logo img {
   max-height: 40px;
 }
@@ -46,6 +47,9 @@ h6 {
   display: flex;
   list-style: none;
   align-items: center;
+}
+.navbar:hover{
+  color: #449FCF;
 }
 
 /* .navbar li {
