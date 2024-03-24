@@ -365,3 +365,31 @@ h6 {
 
 
 /* review section css end here */
+
+
+/* footer css start here */
+.link{
+  color: white;
+  text-decoration: none;
+  font-size:small;
+  font: weight 200px; ;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.icon-style{
+  color: #3b599;
+  
+
+}
+.icon1{
+  color: #BD32A2;
+}
+.icon2{
+ 
+  color: red;
+}
+.icon3{
+  color: #0077B5;
+}
+/* footer css end here */
