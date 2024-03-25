@@ -542,6 +542,24 @@ h6 {
 
 
 
+/* feedback start  */
+#feedback{
+  padding: 5%;
+  /* background: #5eaaa8; */
+  background: #F3F5FA;
+}
+.carousel-item{
+  text-align: center;
+  padding: 7% 15%;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.feedback-img{
+  width: 120px;
+  height: auto;
+  margin-bottom: 5px;
+}
+/* feedback end */
 
 
 
