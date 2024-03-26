@@ -542,11 +542,11 @@ h6 {
 
 
 
-/* feedback start  */
-#feedback{
+/* reviews  start  */
+#reviews{
   padding: 5%;
-  /* background: #5eaaa8; */
-  background: #F3F5FA;
+  background:lightgray;
+  /* background: #37517e; */
 }
 .carousel-item{
   text-align: center;
@@ -554,12 +554,41 @@ h6 {
   font-style: italic;
   font-size: 1.2rem;
 }
-.feedback-img{
+
+
+
+.reviews-img{
   width: 120px;
   height: auto;
   margin-bottom: 5px;
 }
-/* feedback end */
+.icon-style{
+  
+  color:#37517e;
+}
+.d-infoprofile {
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #37517e;
+}
+
+.d-infoprofile:hover {
+  background: #209dd8;
+  color: #fff;
+}
+/* reviews  end */
+
+
+
+/* about us page css */
 #about-us{
   background: #f3f5fa
 

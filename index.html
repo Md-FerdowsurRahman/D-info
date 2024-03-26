@@ -347,7 +347,7 @@
 
     <!-- Frequently asked question start here -->
 
-    <div class="container">
+    <div class="container p-4">
         <h1 class=" fw-bold text-center text-uppercase">Frequently asked questions</h1>
         <hr class="hr-styles">
         <p class="text-center text-uppercase">Here you will find some common qustions and answers</p>
@@ -421,139 +421,162 @@
     <!-- Frequently asked question end here -->
 
     <!-- Review section start here -->
-    <!-- <div class="containar p-5">
-        <h1 class=" fw-bold text-center text-uppercase">People love d-info</h1>
-        <hr class="hr-styless">
-        <p class="text-center text-uppercase">Here's more of what our customer says about us</p>
+    <section id="reviews" class=" p-5">
+        <div class="containar">
 
-    
-    </div> -->
-    <!-- feedback starts  -->
-    <div class="container m-4 p-4">
-        <section id="feedback">
-            <div class="section-title">
-              <h3 class="text-center text-dark">Reviews</h3>
-              <hr class="hr-style">
-          </div>
-    
-            <div class="row">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <p>1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi assumenda odit error. Sint, id harum sequi voluptate officia eligendi ea?</p>
-                      <img class="rounded-circle feedback-img" src="images/Md. Ferdowsur Rahman.jpg" alt="feedback img">
-                      <h6>ferdous</h6>
-                  </div>
-                  <div class="carousel-item">
-                      <p>2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi assumenda odit error. Sint, id harum sequi voluptate officia eligendi ea?</p>
-                      <img class="rounded-circle feedback-img" src="images/Md. Ferdowsur Rahman.jpg" alt="feedback img">
-                      <h6>Ferdows</h6>
-                  </div>
-                  <div class="carousel-item">
-                      <p>3. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi assumenda odit error. Sint, id harum sequi voluptate officia eligendi ea?</p>
-                      <img class="rounded-circle feedback-img" src="data:image/jpeg;base64,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" alt="feedback img">
-                      <h6>Anisul Islam</h6>
-                  </div>
+            <h1 class=" fw-bold text-center text-uppercase">People love d-info</h1>
+            <hr class="hr-styless">
+            <p class="text-center text-uppercase">Here's more of what our customer says about us</p>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p class="text-center">This is really appreciated for this unique innavation in our country.I
+                            personally recommend to eveyone to try the D-INFO Card.It's very helpful and saves time and
+                            very easy to use. Thank you D-INFO team, for such a great service.</p>
+                        <img class="rounded-circle reviews-img" src="images/monir.jpg" alt=""> <br>
+                        <i class=" fas fa-star  icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        </span>
+                        <h6 class="fw-bold">Mohammad Moniruzzaman</h6>
+                        <p>Managing Director & CEO, OS IT SOLUTIONS LIMITED. </p>
+                        <button class=" btn  d-infoprofile">D-INFO PROFILE</button>
+                    </div>
+                    <div class="carousel-item">
+                        <p class="text-center">The D-INFO NFC Business Cards have amaxing customizable designs! I am
+                            able to present my brand in a professional and eye-catching way. I'm extremly plased with th
+                            outcome.</p>
+                        <img class="rounded-circle reviews-img" src="images/Md. Ferdowsur Rahman.jpg" alt=""> <br>
+                        <i class=" fas fa-star  icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <h6 class="fw-bold">MD.Ferdowsur Rahman</h6>
+                        <p>Software Enginner </p>
+                        <button class=" btn  d-infoprofile">D-INFO PROFILE</button>
+                    </div>
+                    <div class="carousel-item">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, perspiciatis temporibus
+                            numquam animi suscipit vitae fugit accusantium voluptatum ea asperiores, cumque molestias
+                            laboriosam omnis accusamus non! Eveniet ut dolorum dignissimos.</p>
+                        <img class="rounded-circle reviews-img" src="images/Md. Ferdowsur Rahman.jpg" alt=""> <br>
+                        <i class=" fas fa-star  icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <i class="fas fa-star icon-style"></i>
+                        <h6 class="fw-bold">MD.Ferdowsur Rahman</h6>
+                        <p>Software Enginner </p>
+                        <button class=" btn  d-infoprofile">D-INFO PROFILE</button>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-         </section>
-    </div>
-     <!-- feedback ends --
+
+    </section>
+
 
 
     <!-- Review section end here -->
 
-            <!-- ======= Contact Section ======= -->
+    <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact p-5">
         <div class="container" data-aos="fade-up">
-  
-          <div class="section-title">
-            <h1 class=" fw-bold text-center text-uppercase">Contact Us</h1>
-            <hr class="hr-style">
-            <p class="text-center text-uppercase">please fill out the form below</p>
-          </div>
-  
-          <div class="row">
-  
-            <div class="col-lg-5 d-flex align-items-stretch">
-              <div class="info">
-                <div class="address">
-                    <i class="fa-solid fa-location-dot"></i>
-                  <h4>Location:</h4>
-                  <p>Tools & Technology Institute, BITAC 1208</p>
-                </div>
-  
-                <div class="email">
-                    <i class="fa-regular fa-envelope"></i>
-                  <h4>Email:</h4>
-                  <p> support@d-info.com</p>
-                </div>
-  
-                <div class="phone">
-                    <i class="fa-solid fa-phone"></i>
-                  <h4>Call:</h4>
-                  <p>01911-310766</p>
-                </div>
-                
-                
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6214652848007!2d90.40167977410073!3d23.760874388376532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9473c0d94e5%3A0xc2e967b0d622f2b4!2sOS%20IT%20Solutions%20Ltd!5e0!3m2!1sen!2sbd!4v1711304539388!5m2!1sen!2sb"
-                  frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
-              </div> 
-  
+
+            <div class="section-title">
+                <h1 class=" fw-bold text-center text-uppercase">Contact Us</h1>
+                <hr class="hr-style">
+                <p class="text-center text-uppercase">please fill out the form below</p>
             </div>
-  
-            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                <div class="row">
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Name</label>
-                    <input type="text" name="name" class="form-control" id="name" required>
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="name">Your Email</label>
-                    <input type="email" class="form-control" name="email" id="email" required>
-                  </div>
+
+            <div class="row">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Location:</h4>
+                            <p>Tools & Technology Institute, BITAC 1208</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h4>Email:</h4>
+                            <p> support@d-info.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa-solid fa-phone"></i>
+                            <h4>Call:</h4>
+                            <p>01911-310766</p>
+                        </div>
+
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.6214652848007!2d90.40167977410073!3d23.760874388376532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9473c0d94e5%3A0xc2e967b0d622f2b4!2sOS%20IT%20Solutions%20Ltd!5e0!3m2!1sen!2sbd!4v1711304539388!5m2!1sen!2sb"
+                            frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                    </div>
+
                 </div>
-                <div class="form-group">
-                  <label for="name">Subject</label>
-                  <input type="text" class="form-control" name="subject" id="subject" required>
+
+                <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="10" required></textarea>
+                        </div>
+                        <div class="my-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+
+                        </div>
+                        <div class="text-center"><button type="submit">Send Message</button></div>
+                    </form>
                 </div>
-                <div class="form-group">
-                  <label for="name">Message</label>
-                  <textarea class="form-control" name="message" rows="10" required></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
-              </form>
+
             </div>
-  
-          </div>
-  
+
         </div>
-      </section><!-- End Contact Section -->
+    </section><!-- End Contact Section -->
 
     <!-- importanr linka and footer section start here -->
     <section class="py-lg-3 text-light footer-widget" style="background: #37517e;
     color:#fff;">
-        
+
         <div class="container d-none d-lg-block">
             <div class="row">
                 <!-- Quick links -->
@@ -676,7 +699,7 @@
 
                                 <img src="images/payment.png" height="50" class="mw-100 h-auto"
                                     style="max-height: 50px">
-                                    
+
                             </li>
                         </ul>
                     </div>
