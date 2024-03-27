@@ -277,6 +277,10 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section end here
 --------------------------------------------------------------*/
+/* order setup css start here */.
+
+/* order setup css start here */
+
 .hr {
   border: 10px dotted white;
   border-bottom: none;
@@ -640,7 +644,7 @@ h6 {
   text-decoration: underline;
 }
 .icon-style{
-  /* color: blue */
+  color: blue;
   
 
 }
