@@ -279,6 +279,7 @@ h6 {
 --------------------------------------------------------------*/
 /* order setup css start here */.
 
+
 /* order setup css start here */
 
 .hr {
@@ -316,6 +317,28 @@ h6 {
 }
 
 /* products css end here */
+
+ 
+/* package css start here */
+
+.explore-features{
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 28px 11px 28px;
+  border-radius: 50px;
+  transition: 0.5s;
+
+  color: #fff;
+  background:blue;
+}
+.explore-features:hover {
+  background: #209dd8;
+  color: #fff;
+}
+/* package css end here */
 
 
 /* How it is work css start */
@@ -599,7 +622,7 @@ h6 {
 }
 .icon-style{
   
-  color:#37517e;
+  color:#47b2e4;
 }
 .d-infoprofile {
   font-family: "Jost", sans-serif;
