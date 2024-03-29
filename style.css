@@ -670,6 +670,17 @@ h6 {
 
 
 /* login css end here */
+/* Registration css start here */
+.pass{
+  font-size: small;
+  color: gray;
+  align-items: center;
+}
+.terms{
+  font-size: small;
+}
+
+/* Registration css end here */
 
 
 
