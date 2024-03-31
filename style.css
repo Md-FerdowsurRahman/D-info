@@ -295,7 +295,28 @@ h6 {
 # Hero Section end here
 --------------------------------------------------------------*/
 /* order setup css start here */
-.
+.step{
+  border: 2px solid gray;
+  border-radius: 10px;
+  text-align: center;
+ 
+  margin-bottom: 2px;
+  background-color: #0077b5;
+  color: white;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Apply animation to the element */
+.step {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
 
 
 /* order setup css start here */
