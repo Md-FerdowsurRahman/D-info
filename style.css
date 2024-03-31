@@ -16,7 +16,6 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
-
 #header .logo img {
   max-height: 40px;
 }
@@ -48,9 +47,27 @@ h6 {
   list-style: none;
   align-items: center;
 }
-.navbar:hover{
-  color: #449FCF;
+.navbar:hover {
+  color: #449fcf;
 }
+
+/* cart css start here */
+
+.cart {
+  color: white;
+  padding-left: 10px;
+  transition: .5s;
+  
+}
+.cart:hover{
+  color: #449fcf;
+ 
+}
+.navbar ul  a{
+  text-decoration: none;
+  
+}
+/* cart css end here */
 
 /* .navbar li {
    position: relative;
@@ -277,7 +294,8 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section end here
 --------------------------------------------------------------*/
-/* order setup css start here */.
+/* order setup css start here */
+.
 
 
 /* order setup css start here */
@@ -289,10 +307,8 @@ h6 {
 }
 
 /* products css start here */
-#products{
-  background-color: #F0F1F2;
-  
- 
+#products {
+  background-color: #f0f1f2;
 }
 .buy-now {
   font-family: "Jost", sans-serif;
@@ -312,16 +328,15 @@ h6 {
   background: #209dd8;
   color: #fff;
 }
-.cards{
+.cards {
   color: #47b2e4;
 }
 
 /* products css end here */
 
- 
 /* package css start here */
 
-.explore-features{
+.explore-features {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -332,14 +347,13 @@ h6 {
   transition: 0.5s;
 
   color: #fff;
-  background:blue;
+  background: blue;
 }
 .explore-features:hover {
   background: #209dd8;
   color: #fff;
 }
 /* package css end here */
-
 
 /* How it is work css start */
 #features {
@@ -420,13 +434,11 @@ h6 {
 
 /* Faq css end here */
 
-
 /* review section css start here */
 .hr-styless {
   width: 500px;
   margin: 0 auto;
 }
-
 
 /* review section css end here */
 
@@ -519,8 +531,6 @@ h6 {
   padding-bottom: 8px;
 }
 
-
-
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -530,18 +540,12 @@ h6 {
   font-weight: 600;
 }
 
-
-
-
-
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-
-
 
 .contact .php-email-form .form-group {
   margin-bottom: 20px;
@@ -572,7 +576,7 @@ h6 {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
   background: #47b2e4;
   border: 0;
   padding: 12px 34px;
@@ -581,7 +585,7 @@ h6 {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #209dd8;
 }
 
@@ -598,31 +602,26 @@ h6 {
 # Contact US end here
 --------------------------------------------------------------*/
 
-
-
 /* reviews  start  */
-#reviews{
+#reviews {
   padding: 5%;
-  background:lightgray;
+  background: lightgray;
   /* background: #37517e; */
 }
-.carousel-item{
+.carousel-item {
   text-align: center;
   padding: 7% 15%;
   font-style: italic;
   font-size: 1.2rem;
 }
 
-
-
-.reviews-img{
+.reviews-img {
   width: 120px;
   height: auto;
   margin-bottom: 5px;
 }
-.icon-style{
-  
-  color:#47b2e4;
+.icon-style {
+  color: #47b2e4;
 }
 .d-infoprofile {
   font-family: "Jost", sans-serif;
@@ -644,75 +643,59 @@ h6 {
 }
 /* reviews  end */
 
-
-
-
-
 /* about us page css */
-#about-us{
-  background: #f3f5fa
-
+#about-us {
+  background: #f3f5fa;
 }
 
-
 /* login css start here */
-  .login{
-    background: #37517e;
-    color:#fff ;
-    display: block;
-    width: 100%;
-  }
-  .login:hover{
-    background:#449FCF
-   
-  }
-
-
+.login {
+  background: #37517e;
+  color: #fff;
+  display: block;
+  width: 100%;
+}
+.login:hover {
+  background: #449fcf;
+}
 
 /* login css end here */
 /* Registration css start here */
-.pass{
+.pass {
   font-size: small;
   color: gray;
   align-items: center;
 }
-.terms{
+.terms {
   font-size: small;
 }
 
 /* Registration css end here */
 
-
 /* table color css start here */
-
 
 /* table color css end here */
 
 /* footer css start here */
-.link{
+.link {
   color: white;
   text-decoration: none;
-  font-size:small;
-  font: weight 200px; ;
+  font-size: small;
+  font: weight 200px;
 }
-.link:hover{
+.link:hover {
   text-decoration: underline;
 }
-.icon-style{
+.icon-style {
   color: blue;
-  
-
 }
-.icon1{
-  color: #BD32A2;
+.icon1 {
+  color: #bd32a2;
 }
-.icon2{
- 
+.icon2 {
   color: red;
 }
-.icon3{
-  color: #0077B5;
+.icon3 {
+  color: #0077b5;
 }
 /* footer css end here */
-
-
